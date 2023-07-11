@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - music</title>
+
+  <!--adding favicon using favicon generator (real favicon) -->
+  <!-- https://www.youtube.com/watch?v=cVWJbtQ8SAc -->
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="faviconPakage/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="faviconPakage/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="faviconPakage/favicon-16x16.png">
+  <link rel="manifest" href="faviconPakage/site.webmanifest">
+  <link rel="mask-icon" href="faviconPakage/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff"> -->
+  <link rel="icon" href="logo.png">
+
+
+
+  <!-- css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="songList">
+      <h1>midsummer Madness</h1>
+      <div class="songItemContainer">
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">03:13 <i id="0" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">03:15 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">04:41 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">03:39 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">05:31 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">04:31 <i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">04:37 <i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">03:11 <i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">01:43 <i id="8" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img alt="">
+          <span class="songName"></span>
+          <span class="songListPlay"><span class="timestamp">02:26 <i id="9" class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+        </div>
+      </div>
+    </div>
+    <div class="songBanner"></div>
+  </div>
+
+  <!-- bottom -->
+  <div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" max="1000" value="0">
+    <div class="icons">
+      <!-- fontawesome icons -->
+      <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+      <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+      <i class="fa-solid fa-3x fa-forward-step" id="next"></i>    
+    </div>
+    <div class="songInfo">
+      <img src="musicAnim.gif" width="44px" alt="music" id="gif"> <span id="masterSongName"></span>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/d4136e6763.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
